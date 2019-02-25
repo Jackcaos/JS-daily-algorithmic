@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>算法</title>
+    <script>
+        var name = "CS";
+        function Output(names) {
+            this.name = names;
+            this.print = function(){
+                setTimeout(()=>{
+                    console.log(this.name);
+                },100)
+            }
+        }
+        var person = new Output("cs");
+        person.print();
+    </script>
+</head>
+<body>
+11
+<!--<script src="maxInWindows.js"></script>-->
+</body>
+</html>
